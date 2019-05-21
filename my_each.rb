@@ -4,5 +4,6 @@ def my_each (collection) {|i| puts i}
   while i < collection.length 
     yield
     i += 1 
-    
+  end
+  
 end
