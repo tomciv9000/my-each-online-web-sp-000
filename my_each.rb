@@ -1,4 +1,4 @@
-def my_each (collection) {|num| puts num}
+def my_each (collection) { |num| puts num}
   i = 0 
   
   while i < collection.length 
